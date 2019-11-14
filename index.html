@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Фигурки</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="create-column-div">
+        <h3>Create your personal column!</h3>
+        <form name="create-column-form" onsubmit="return false;">
+            <input name="colorSelector" type="color" id="color-create"> <label for="color-create">Choose yor
+                color!</label>
+            <select name="figureSelector" id="select-figure">
+                <option value="circle">circle</option>
+                <option value="limon">limon</option>
+                <option value="square">square</option>
+                <option value="ellipse">ellipse</option>
+                <option value="half-oval">half-oval</option>
+                <option value="barrel">barrel</option>
+                <option value="ballon">ballon</option>
+                <option value="potato">potato</option>
+                <option value="leaf">leaf</option>
+                <option value="mark">mark</option>
+                <option value="sun">sun</option>
+            </select>
+            <p><button id="submit-button">Create new column!</button> <br>or<br> <button id="hell-button">Choose figure on button!</button>
+            </p>
+        </form>
+    </div>
+    <div id="container"></div>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="/dist/main.js" async defer></script>
+</body>
+
+</html>

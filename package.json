@@ -1,0 +1,23 @@
+{
+  "name": "figures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "browserify src/main.js -t babelify --outfile dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kotuhen",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-core": "^6.26.3",
+    "babelify": "^10.0.0"
+  },
+  "dependencies": {
+    "browserify": "^16.5.0"
+  }
+}

@@ -1,0 +1,116 @@
+#create-column-div{
+    width: 20%;
+    margin: 10px auto ;
+    padding: 10px;
+    text-align: center;
+}
+h3, label,button, select, p {
+    font-family: "Comfortaa", cursive;
+
+}
+#color-create {
+    height: 3rem;
+    border-width: 0px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+#color-create:hover{
+    cursor: pointer;
+}
+#select-figure{
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#submit-button, #hell-button{
+    outline: none;
+  background-color: #ffffff6b;
+  border-width: 0px;
+  font-family: "Comfortaa", cursive;
+  padding: 5px;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+#color-create:hover, #submit-button:hover, #hell-button:hover {
+    transform: scale(1.2);
+
+}
+#container {
+    display: flex
+}
+.column-back {
+    min-width:  400px;
+  margin: 15px;
+  display: inline-table;
+  width: 30%;
+  text-align: center;
+  padding: 5px;
+}
+.content-div {
+  background: #ffffff6b;
+  width: 60%;
+  display: inherit;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn-create {
+  outline: none;
+  background-color: #ffffff6b;
+  border-width: 0px;
+  font-family: "Comfortaa", cursive;
+  padding: 5px;
+  margin: 5px;
+}
+.btn-create:active {
+  background-color: #ffffffb7;
+}
+.block {
+  width: 50%;
+  height: auto;
+  padding-top: 50%;
+  margin: 20px auto 20px auto;
+  transition: all 0.3s ease;
+}
+.block:hover {
+    transform: scale(1.2);
+}
+.circle {
+    border-radius: 50%;
+    
+}
+.limon{
+    border-radius: 0% 100% 50% 100% / 8% 100%;
+  }
+
+.ellipse {
+    width: 70%;
+    border-radius: 100% 100% 100% 100% / 100% 97% 100% 100%;
+
+}
+.half-oval {
+    border-radius: 100% 100% 0% 0%/100%;
+}
+.barrel {
+    border-radius: 50%/85%;
+}
+.ballon {
+    border-radius: 100% 100% 0% 100%;
+}
+.potato {
+    border-radius: 100% 57% 100% 96% / 100% 79% 100% 70%;
+}
+.leaf {
+    border-radius: 100% 0% 100% 0%;
+}
+.mark {
+    outline: 1.4rem dashed #ffffff6b;
+    outline-offset: -1.4rem;
+}
+.sun {
+    border: 0.4rem dashed #ffffff6b;
+    outline-offset: -1.4rem;
+    border-radius: 50%;
+}
